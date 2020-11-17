@@ -1,0 +1,4 @@
+Answer :
+
+1. The compiler will be able to evaluate the final value of a and turn the
+   function into the equivalent of "return 14".

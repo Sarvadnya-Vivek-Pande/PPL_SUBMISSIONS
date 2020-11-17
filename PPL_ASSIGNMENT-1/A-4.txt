@@ -1,0 +1,10 @@
+Answers :
+
+1. Arrays declared in a single statement with no initialisation and explicit
+   size. Initialisation takes place one element per statement on scope entry.
+
+2. Presumably because like in many architectures, only one memory operation per
+   instruction is permitted. This probably simplifies many things.
+
+3. To mark the arrays as invalid at scope exit - probably to simplify analysis
+   and permit reuse of stack slots, etc.

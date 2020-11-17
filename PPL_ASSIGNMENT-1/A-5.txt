@@ -1,0 +1,11 @@
+Answers :
+
+1. This is more like the SSA form I was expecting. Maybe (D) means it's missing
+   a definition? (e.g. c is undefined in its use in the first conditional).
+
+2. Syntax of phi statements is probably PHI < prec_1, prec_2, ... prec_n > where
+   prec_i is name(bb) - name being the name of the variable and bb the number of
+   the basic block in which it was declared. There will be a prec_i for ecah
+   preceding BB from which control flow can enter the current BB.
+
+3. This could come from a switch statement or cascading if-else blocks.

@@ -1,0 +1,13 @@
+Answers :
+
+1. BB 3 and 4 correspond to the while loop. BB2 avoids executing an iteration
+   unconditionally by having an unconditional goto to BB4 which is the while
+   loop conditional. This is different from the if-else jumps, which always seem
+   to be conditional.
+
+2. BB 5:  Outer loop induction variable initialisation
+   BB 10: Outer loop conditional check
+   BB 6:  Inner loop induction variable initialisation
+   BB 8:  Inner loop conditional check
+   BB 7:  Inner loop body + induction variable increment
+   BB 9:  Outer loop induction variable increment

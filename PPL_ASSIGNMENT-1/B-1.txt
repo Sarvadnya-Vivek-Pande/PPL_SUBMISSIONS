@@ -1,0 +1,6 @@
+Answers :
+
+1. It can't be discarded, because it may be called from another translation unit.
+
+2. Add the static keyword to the prototype to signify that its linkage is
+   internal only.

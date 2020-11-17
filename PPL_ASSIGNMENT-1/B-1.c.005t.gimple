@@ -1,0 +1,22 @@
+ADDTwo (int a)
+{
+  int D.1914;
+
+  a = a + 2;
+  D.1914 = a;
+  return D.1914;
+}
+
+
+mai ()
+{
+  int D.1916;
+  int x;
+
+  x = 3;
+  x = ADDTwo (x);
+  D.1916 = x;
+  return D.1916;
+}
+
+

@@ -1,0 +1,5 @@
+Answer :
+
+1. a takes on the values 4 to 100, but only 4 to 99 within the scope of the loop
+   body. The if condition will never be true, and the code in the taken branch
+   appears to have been eliminated.

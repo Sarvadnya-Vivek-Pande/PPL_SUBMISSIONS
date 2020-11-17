@@ -1,0 +1,8 @@
+Answers :
+
+1. If-blocks are turned into conditional gotos to labels. Unconditional gotos
+   are a goto by themselves on a line. Conditional gotos always have two labels
+   for the taken and not-taken branches.
+
+2. It's a bit easier to see the control flow in this representation, but
+   slightly less concise in terms of number of lines.
