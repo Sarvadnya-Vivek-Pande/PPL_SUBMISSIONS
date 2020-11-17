@@ -1,0 +1,19 @@
+button {
+    background: none;
+    background-color:white;
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+button:hover {
+    background-color:rgb(224, 223, 223);
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+}
+
+entry {
+    background-color: whitesmoke;
+    font-size: x-large;
+    font-family: sans-serif;
+}
